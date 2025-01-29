@@ -17,12 +17,12 @@
   --base-gradient: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
