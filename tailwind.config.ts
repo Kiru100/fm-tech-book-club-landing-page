@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 import type { Config } from "tailwindcss";
 
 export default {
@@ -9,8 +10,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "background": "var(--background)",
+        "foreground": "var(--foreground)",
         "tbc-neutral-900": "var(--tbc-neutral-900)",
         "tbc-neutral-700": "var(--tbc-neutral-700)",
         "tbc-neutral-200": "var(--tbc-neutral-200)",
@@ -22,7 +23,27 @@ export default {
         "text-gradient": "var(--text-gradient)",
         "base-gradient": "var(--base-gradient)",
       },
+      fontFamily: {
+        "geist": "var(--font-geist-sans)",
+        "geist-mono": "var(--font-geist-mono)",
+        "martian-mono": "var(--font-martian-mono)",
+        "martian-mono-normal": "var(--font-martian-mono-normal)",
+        "martian-mono-bold": "var(--font-martian-mono-bold)",
+        "martian-mono-medium": "var(--font-martian-mono-medium)",
+        "martian-mono-light": "var(--font-martian-mono-light)",
+        "inter-normal": "var(--font-inter-normal)",
+        "inter-medium": "var(--font-inter-medium)",
+        "inter-bold": "var(--font-inter-bold)",
+      },
+      backgroundImage: {
+        "text-gradient": "var(--text-gradient)",
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/line-clamp'),
+  ],
 } satisfies Config;

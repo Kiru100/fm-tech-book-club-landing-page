@@ -17,12 +17,33 @@
   --base-gradient: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
+@layer utilities {
+  	/* FONTS */
+	.font-martian-mono-normal {
+		@apply font-martian-mono font-normal;
+	};
+
+	.font-martian-mono-bold {
+		@apply font-martian-mono font-bold;
+	};
+
+	.font-martian-mono-medium {
+		@apply font-martian-mono font-medium;
+	};
+
+	.font-martian-mono-semi-bold {
+		@apply font-martian-mono font-semibold;
+	};
+
+	.font-martian-mono-light {
+		@apply font-martian-mono font-light;
+	};
+
+	.font-inter-normal {
+		@apply font-inter font-normal;
+	};
+}
+
 
 body {
   color: var(--foreground);
