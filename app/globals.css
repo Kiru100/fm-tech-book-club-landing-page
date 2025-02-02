@@ -39,8 +39,20 @@
 		@apply font-martian-mono font-light;
 	};
 
-	.font-inter-normal {
-		@apply font-inter font-normal;
+	.fm-font-inter-normal {
+		@apply fm-font-inter font-normal;
+	};
+
+	.fm-font-inter-medium {
+		@apply fm-font-inter font-medium;
+	};
+
+	.fm-font-inter-semibold {
+		@apply fm-font-inter font-semibold;
+	};
+
+	.fm-font-inter-bold {
+		@apply fm-font-inter font-bold;
 	};
 }
 
