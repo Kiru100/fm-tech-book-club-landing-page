@@ -31,19 +31,15 @@ export default {
         "martian-mono-bold": "var(--font-martian-mono-bold)",
         "martian-mono-medium": "var(--font-martian-mono-medium)",
         "martian-mono-light": "var(--font-martian-mono-light)",
-        "inter-normal": "var(--font-inter-normal)",
-        "inter-medium": "var(--font-inter-medium)",
-        "inter-bold": "var(--font-inter-bold)",
+        "fm-font-inter-normal": "var(--fm-font-inter-normal)",
+        "inter-medium": "var(--fm-ont-inter-medium)",
+        "inter-bold": "var(--fm-font-inter-bold)",
+        "inter-semi-bold": "var(--fm-font-inter-semibold)",
       },
       backgroundImage: {
         "text-gradient": "var(--text-gradient)",
       }
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/line-clamp'),
-  ],
+  plugins: [],
 } satisfies Config;
