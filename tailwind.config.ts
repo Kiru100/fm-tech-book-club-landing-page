@@ -26,15 +26,14 @@ export default {
       fontFamily: {
         "geist": "var(--font-geist-sans)",
         "geist-mono": "var(--font-geist-mono)",
+        "inter": ["Inter", "sans-serif"],
         "martian-mono": "var(--font-martian-mono)",
         "martian-mono-normal": "var(--font-martian-mono-normal)",
         "martian-mono-bold": "var(--font-martian-mono-bold)",
+        "martian-mono-semibold": "var(--font-martian-mono-semibold)",
         "martian-mono-medium": "var(--font-martian-mono-medium)",
         "martian-mono-light": "var(--font-martian-mono-light)",
-        "fm-font-inter-normal": "var(--fm-font-inter-normal)",
-        "inter-medium": "var(--fm-ont-inter-medium)",
-        "inter-bold": "var(--fm-font-inter-bold)",
-        "inter-semi-bold": "var(--fm-font-inter-semibold)",
+        "inter-normal": "var(--font-inter-normal)",
       },
       backgroundImage: {
         "text-gradient": "var(--text-gradient)",

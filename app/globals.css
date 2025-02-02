@@ -31,7 +31,7 @@
 		@apply font-martian-mono font-medium;
 	};
 
-	.font-martian-mono-semi-bold {
+	.font-martian-mono-semibold {
 		@apply font-martian-mono font-semibold;
 	};
 
@@ -39,8 +39,8 @@
 		@apply font-martian-mono font-light;
 	};
 
-	.fm-font-inter-normal {
-		@apply fm-font-inter font-normal;
+	.font-inter-normal {
+		@apply font-inter font-normal;
 	};
 
 	.fm-font-inter-medium {
