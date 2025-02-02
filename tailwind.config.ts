@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 import type { Config } from "tailwindcss";
 
 export default {
@@ -9,20 +10,40 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        "tcp-neutral-900": "var(--tcp-neutral-900)",
-        "tcp-neutral-700": "var(--tcp-neutral-700)",
-        "tcp-neutral-200": "var(--tcp-neutral-200)",
-        "tcp-neutral-100": "var(--tcp-neutral-100)",
-        "tcp-neutral-0": "var(--tcp-neutral-0)",
-        "--light-salmon": "var(--light-salmon)",
-        "--light-salmon-100": "var(--light-salmon-100)",
-        "--light-salmon-50": "var(--light-salmon-50)",
-        "--text-gradient": "var(--text-gradient)",
-        "--base-gradient": "var(--base-gradient)",
+        "background": "var(--background)",
+        "foreground": "var(--foreground)",
+        "tbc-neutral-900": "var(--tbc-neutral-900)",
+        "tbc-neutral-700": "var(--tbc-neutral-700)",
+        "tbc-neutral-200": "var(--tbc-neutral-200)",
+        "tbc-neutral-100": "var(--tbc-neutral-100)",
+        "tbc-neutral-0": "var(--tbc-neutral-0)",
+        "light-salmon": "var(--light-salmon)",
+        "light-salmon-100": "var(--light-salmon-100)",
+        "light-salmon-50": "var(--light-salmon-50)",
+        "text-gradient": "var(--text-gradient)",
+        "base-gradient": "var(--base-gradient)",
       },
+      fontFamily: {
+        "geist": "var(--font-geist-sans)",
+        "geist-mono": "var(--font-geist-mono)",
+        "martian-mono": "var(--font-martian-mono)",
+        "martian-mono-normal": "var(--font-martian-mono-normal)",
+        "martian-mono-bold": "var(--font-martian-mono-bold)",
+        "martian-mono-medium": "var(--font-martian-mono-medium)",
+        "martian-mono-light": "var(--font-martian-mono-light)",
+        "inter-normal": "var(--font-inter-normal)",
+        "inter-medium": "var(--font-inter-medium)",
+        "inter-bold": "var(--font-inter-bold)",
+      },
+      backgroundImage: {
+        "text-gradient": "var(--text-gradient)",
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/line-clamp'),
+  ],
 } satisfies Config;
