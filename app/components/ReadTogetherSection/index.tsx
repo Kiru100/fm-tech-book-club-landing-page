@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react'
+import Image from "next/image";
+import React from "react"
 import check_box_icon from "@/app/assets/images/icon-check.svg";
 import image_together_bg from "@/app/assets/images/image-read-together-mobile.webp";
 

@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import NotYourAverageClubSection from "./components/NotYourAverageClubSection";
 import ReadTogetherSection from "./components/ReadTogetherSection";
+import TechReadingJourneySection from "./components/TechReadingJourneySection";
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
 			<Hero />
 			<ReadTogetherSection />
 			<NotYourAverageClubSection />
+			<TechReadingJourneySection />
 		</div>
 	);
 }
