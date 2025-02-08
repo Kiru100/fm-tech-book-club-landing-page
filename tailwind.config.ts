@@ -26,7 +26,7 @@ export default {
       fontFamily: {
         "geist": "var(--font-geist-sans)",
         "geist-mono": "var(--font-geist-mono)",
-        "inter": ["Inter", "sans-serif"],
+        "inter": ["var(--font-inter)", "sans-serif"],
         "martian-mono": "var(--font-martian-mono)",
         "martian-mono-normal": "var(--font-martian-mono-normal)",
         "martian-mono-bold": "var(--font-martian-mono-bold)",
@@ -34,10 +34,15 @@ export default {
         "martian-mono-medium": "var(--font-martian-mono-medium)",
         "martian-mono-light": "var(--font-martian-mono-light)",
         "inter-normal": "var(--font-inter-normal)",
+        "inter-semibold": "var(--font-inter-semibold)",
+        "inter-bold": "var(--font-inter-bold)",
+        "inter-medium": "var(--font-inter-medium)",
       },
       backgroundImage: {
         "text-gradient": "var(--text-gradient)",
         "square-background" : "url('../public/images/pattern-light-bg.svg')",
+        "pattern_circle": "url('../public/images/pattern-circle.png')",
+        "glow_circle": "url('../public/svg/pattern-glow.svg')",
       }
     },
   },
