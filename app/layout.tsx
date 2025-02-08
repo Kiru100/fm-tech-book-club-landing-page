@@ -3,7 +3,8 @@ import { Inter, Martian_Mono } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
-	variable: "--fm-font-inter",
+	variable: "--font-inter",
+	weight: ["100", "300", "400", "500", "600", "700", "800", "900"],
   	subsets: ["latin"],
 });
 
