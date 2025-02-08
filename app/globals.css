@@ -43,16 +43,16 @@
 		@apply font-inter font-normal;
 	};
 
-	.fm-font-inter-medium {
-		@apply fm-font-inter font-medium;
+	.font-inter-medium {
+		@apply font-inter font-medium;
 	};
 
-	.fm-font-inter-semibold {
-		@apply fm-font-inter font-semibold;
+	.font-inter-semibold {
+		@apply font-inter font-semibold;
 	};
 
-	.fm-font-inter-bold {
-		@apply fm-font-inter font-bold;
+	.font-inter-bold {
+		@apply font-inter font-bold;
 	};
 }
 
