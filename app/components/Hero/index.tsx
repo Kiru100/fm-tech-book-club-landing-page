@@ -9,7 +9,7 @@ import icon_start from "@/app/assets/images/icon-star.svg";
 
 export default function Hero() {
     return (
-        <div className="bg-tbc-neutral-100">
+        <section className="bg-tbc-neutral-100">
             <div className="bg-square-background bg-[auto_100vh] bg-no-repeat pt-6 px-4 pb-20">
                 <Image src={Logo} alt="hero" />
                 <div className="mt-12">
@@ -41,6 +41,6 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 };

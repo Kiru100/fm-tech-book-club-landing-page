@@ -1,13 +1,24 @@
-import React from 'react'
+import Plan from "./Plan";
 
 function MembershipOptionSection() {
+    const PLAN_DATA = [
+        { id: 1, title: 'Starter', price: "$19", features: ["1 book/month", "Online forums"] },
+        { id: 2, title: 'Pro', price: "$29", features: ["2 books/month", "Virtual meetups"], button_text: "GET STARTED" },
+        { id: 3, title: 'Enterprise', price: "Custom", features: ["Team access", "Private sessions"], button_text: "TALK TO US" },
+    ];
+
     return (
-        <div className="mt-16 px-4">
+        <section className="mt-16 px-4">
              <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px]">
                 Membership <br/>
                 options <br/>
             </h2>
-        </div>
+            <div>
+                {PLAN_DATA.map(({id, title, price, features}, index) => (
+                    <Plan key={`plan-${index}-${id}`} title={title} price={price} features={features} />
+                ))}
+            </div>
+        </section>
     )
 }
 

@@ -9,7 +9,7 @@ function TechReadingJourneySection() {
     ];
 
     return (
-        <div className="mt-16 px-4 mx-4 py-16 bg-tbc-neutral-100 rounded-xl bg-square-background relative overflow-hidden">
+        <section className="mt-16 px-4 mx-4 py-16 bg-tbc-neutral-100 rounded-xl bg-square-background relative overflow-hidden">
             <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px]">
                 Your tech <br className='hidden' />
                 reading <br />
@@ -26,7 +26,7 @@ function TechReadingJourneySection() {
             <div className="bg-glow_circle bg-contain h-[684px] w-[684px] absolute top-[399.08px] l-[151.5px]">
 
             </div>
-        </div>
+        </section>
     )
 }
 
