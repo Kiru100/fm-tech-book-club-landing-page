@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function NotYourAverageClubSection() {
     return (
-        <div className="mt-16 px-4">
+        <section className="mt-16 px-4">
             <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px]">
                 Not your <br/>
                 average book <br/>
@@ -19,7 +19,7 @@ function NotYourAverageClubSection() {
             <div className="mt-10 rounded-[12.25px] overflow-hidden">
                 <Image src={image_not_average} alt="People laughing." />
             </div>
-        </div>
+        </section>
     )
 }
 

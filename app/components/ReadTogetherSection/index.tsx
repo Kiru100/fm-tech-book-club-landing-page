@@ -5,7 +5,7 @@ import image_together_bg from "@/app/assets/images/image-read-together-mobile.we
 
 function ReadTogetherSection() {
     return (
-        <div className="mt-16 px-4">
+        <section className="mt-16 px-4">
             <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px]">
                 Read together, <br/>
                 grow together
@@ -31,7 +31,7 @@ function ReadTogetherSection() {
             <div className="mt-10 rounded-[12.25px] overflow-hidden">
                 <Image src={image_together_bg} alt="People reading together." />
             </div>
-        </div>
+        </section>
     )
 }
 
