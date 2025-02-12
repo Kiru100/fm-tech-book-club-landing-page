@@ -3,6 +3,7 @@ import MembershipOptionSection from "./components/MembershipOptionSection";
 import NotYourAverageClubSection from "./components/NotYourAverageClubSection";
 import ReadTogetherSection from "./components/ReadTogetherSection";
 import TechReadingJourneySection from "./components/TechReadingJourneySection";
+import TestimonialsSection from "./components/TestimonialsSection";
 
 
 export default function Home() {
@@ -12,7 +13,8 @@ export default function Home() {
 			<ReadTogetherSection />
 			<NotYourAverageClubSection />
 			<TechReadingJourneySection />
-			<MembershipOptionSection/>
+			<MembershipOptionSection />
+			<TestimonialsSection />
 		</div>
 	);
 }
