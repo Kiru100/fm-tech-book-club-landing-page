@@ -1,5 +1,10 @@
 import Plan from "./Plan";
 
+/**
+ * DOCU: This component is a section that describes the membership options of the book club. <br>
+ * Last Updated Date: January 12, 2025
+ * @author Noel
+ */
 function MembershipOptionSection() {
     const PLAN_DATA = [
         { id: 1, title: 'Starter', price: "$19", features: ["1 book/month", "Online forums"] },

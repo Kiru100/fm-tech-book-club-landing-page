@@ -1,6 +1,11 @@
 import image_not_average from "@/app/assets/images/image-not-average-mobile.webp";
 import Image from "next/image";
 
+/**
+ * DOCU: This component is a section that describes the book club as not your average book club.
+ * Last Updated Date: January 12, 2025
+ * @author Noel
+ */
 function NotYourAverageClubSection() {
     return (
         <section className="mt-16 px-4">

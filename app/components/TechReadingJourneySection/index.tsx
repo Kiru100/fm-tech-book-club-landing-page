@@ -1,5 +1,9 @@
-import React from 'react'
 
+/**
+ * DOCU: This component is a section that describes the tech reading journey of the book club. <br/>
+ * Last Updated Date: January 12, 2025
+ * @author Noel
+ */
 function TechReadingJourneySection() {
     const TECH_READING_JOURNEY = [
         { id: 1, title: 'Choose your membership tier' },
