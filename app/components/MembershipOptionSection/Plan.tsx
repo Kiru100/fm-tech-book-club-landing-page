@@ -8,14 +8,21 @@ type PlanProps = {
     button_text?: string;
 };
 
+/**
+ * DOCU: This component is a section that describes the book club as a place where members can read together and grow together. <br>
+ * @params title: string - The title of the plan.
+ * @params price: string - The price of the plan.
+ * @params features: string[] - The features of the plan.
+ * @params button_text?: string - The text of the button.
+ * Last Updated Date: January 12, 2025
+ * @author Noel
+ */
 function Plan({
     title,
     price,
     features,
     button_text
 }: PlanProps) {
-
-    console.log(button_text);
     return (
         <div className="border border-tbc-neutral-200 rounded-lg p-6 mt-6">
             <h3 className="text-[2rem] leading-[130%] -tracking-[1px] font-martian-mono-semibold text-tbc-neutral-900">{title}</h3>

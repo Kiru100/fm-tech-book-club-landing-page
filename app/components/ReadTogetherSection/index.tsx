@@ -3,6 +3,11 @@ import React from "react"
 import check_box_icon from "@/app/assets/images/icon-check.svg";
 import image_together_bg from "@/app/assets/images/image-read-together-mobile.webp";
 
+/**
+ * DOCU: This component is a section that describes the book club as a place where members can read together and grow together. <br>
+ * Last Updated Date: January 12, 2025
+ * @author Noel
+ */
 function ReadTogetherSection() {
     return (
         <section className="mt-16 px-4">
