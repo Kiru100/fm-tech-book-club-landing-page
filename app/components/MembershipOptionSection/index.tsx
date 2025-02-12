@@ -14,8 +14,8 @@ function MembershipOptionSection() {
                 options <br/>
             </h2>
             <div>
-                {PLAN_DATA.map(({id, title, price, features}, index) => (
-                    <Plan key={`plan-${index}-${id}`} title={title} price={price} features={features} />
+                {PLAN_DATA.map(({id, title, price, features, button_text}, index) => (
+                    <Plan key={`plan-${index}-${id}`} title={title} price={price} features={features} button_text={button_text} />
                 ))}
             </div>
         </section>
