@@ -31,7 +31,7 @@ export default function Hero() {
                         </div>
                         <div>
                             <span className="flex flex-row items-center">
-                                {(new Array(5)).fill(0).map((_, index) => ( <Image src={icon_start} alt="Star" key={index} height={24} width={24} />)) }
+                                {(new Array(5)).fill(0).map((_, index) => ( <Image src={icon_start} alt="Star" key={index} height={24} width={24} />))}
                             </span>
                             <span className="font-martian-mono-normal text-sm leading-[120%] -tracking-[1px] text-tbc-neutral-700">200+ developers joined already</span>
                         </div>
