@@ -41,6 +41,7 @@ export default {
       backgroundImage: {
         "text-gradient": "var(--text-gradient)",
         "square-background" : "url('../public/images/pattern-light-bg.svg')",
+        "square-background-dark" : "url('../public/images/pattern-dark-bg.svg')",
         "pattern_circle": "url('../public/images/pattern-circle.png')",
         "glow_circle": "url('../public/svg/pattern-glow.svg')",
       }
