@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import MembershipOptionSection from "./components/MembershipOptionSection";
 import NotYourAverageClubSection from "./components/NotYourAverageClubSection";
@@ -15,6 +16,7 @@ export default function Home() {
 			<TechReadingJourneySection />
 			<MembershipOptionSection />
 			<TestimonialsSection />
+			<Footer />
 		</div>
 	);
 }
