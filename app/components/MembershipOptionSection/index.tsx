@@ -7,9 +7,9 @@ import Plan from "./Plan";
  */
 function MembershipOptionSection() {
     const PLAN_DATA = [
-        { id: 1, title: 'Starter', price: "$19", features: ["1 book/month", "Online forums"] },
-        { id: 2, title: 'Pro', price: "$29", features: ["2 books/month", "Virtual meetups"], button_text: "GET STARTED" },
-        { id: 3, title: 'Enterprise', price: "Custom", features: ["Team access", "Private sessions"], button_text: "TALK TO US" },
+        { id: 1, title: "Starter", price: "$19", features: ["1 book/month", "Online forums"] },
+        { id: 2, title: "Pro", price: "$29", features: ["2 books/month", "Virtual meetups"], button_text: "GET STARTED", card_type: "highlight" },
+        { id: 3, title: "Enterprise", price: "Custom", features: ["Team access", "Private sessions"], button_text: "TALK TO US" },
     ];
 
     return (
@@ -19,8 +19,8 @@ function MembershipOptionSection() {
                 options <br/>
             </h2>
             <div>
-                {PLAN_DATA.map(({id, title, price, features, button_text}, index) => (
-                    <Plan key={`plan-${index}-${id}`} title={title} price={price} features={features} button_text={button_text} />
+                {PLAN_DATA.map(({id, title, price, features, button_text, card_type}, index) => (
+                    <Plan key={`plan-${index}-${id}`} title={title} price={price} features={features} button_text={button_text} card_type={card_type}/>
                 ))}
             </div>
         </section>

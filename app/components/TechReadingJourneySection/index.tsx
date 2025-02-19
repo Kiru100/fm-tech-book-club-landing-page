@@ -27,9 +27,7 @@ function TechReadingJourneySection() {
                     </div>
                 ))}
             </div>
-            <div className="bg-glow_circle bg-contain h-[684px] w-[684px] absolute top-[399.08px] l-[151.5px]">
-
-            </div>
+            <div className="bg-glow_circle bg-contain h-[684px] w-[684px] absolute top-[399.08px] l-[151.5px]" />
         </section>
     )
 }
