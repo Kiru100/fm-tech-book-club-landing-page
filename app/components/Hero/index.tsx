@@ -9,7 +9,7 @@ export default function Hero() {
             <div className="bg-square-background bg-[auto_100vh] bg-no-repeat pt-6 px-4 pb-20">
                 <Image src={Logo} alt="hero" />
                 <div className="mt-12">
-                    <h1 className="bg-text-gradient bg-clip-text text-transparent text-4xl font-martian-mono-bold leading-[120%] -tracking-[2px]">
+                    <h1 className="bg-text-gradient bg-clip-text text-transparent text-4xl font-martian-mono-bold leading-[120%] -tracking-[2px] md:text-[3.875rem]">
                         Join the <br />
                         ultimate tech<br />
                         book club
