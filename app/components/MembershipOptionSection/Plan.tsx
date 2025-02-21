@@ -1,10 +1,12 @@
 import check_box_icon from "@/app/assets/images/icon-check.svg";
+import clsx from "clsx";
 import Image from 'next/image';
 
 type PlanProps = {
     title: string;
     price: string;
     features: string[];
+    card_type?: string;
     button_text?: string;
 };
 
@@ -21,10 +23,11 @@ function Plan({
     title,
     price,
     features,
-    button_text
+    button_text,
+    card_type
 }: PlanProps) {
     return (
-        <div className="border border-tbc-neutral-200 rounded-lg p-6 mt-6">
+        <div className={clsx("border border-tbc-neutral-200 rounded-lg p-6 mt-6 relative overflow-hidden", (card_type === "highlight") && "bg-tbc-neutral-100")}>
             <h3 className="text-[2rem] leading-[130%] -tracking-[1px] font-martian-mono-semibold text-tbc-neutral-900">{title}</h3>
             <div>
                 <div className="flex flex-row items-center gap-2 mt-6 border-b border-tbc-neutral-200 pb-6">
@@ -43,6 +46,8 @@ function Plan({
             <button className="mt-8 bg-light-salmon-50 border-2 border-tbc-neutral-900 rounded-lg w-full px-6 py-5 text-tbc-neutral-900 font-martian-mono-semibold text-base leading-[130%] -tracking-[1px]">
                 {(button_text) ? button_text : "SUBSCRIBE NOW"}
             </button>
+            {(card_type === "highlight") && (<div className="bg-glow_circle bg-contain h-[684px] w-[684px] absolute top-[202px] left-[24px]" ></div>)}
+            
         </div>  
     )
 }
