@@ -18,12 +18,14 @@ function ReviewMemberShipOptions({mode = "light"} : ReviewMemberShipOptionsProps
             <Link 
                 href="/" 
                 className={clsx("flex flex-row items-center gap-4 h-16 border-[2px] rounded-[8px] py-5 flex-nowrap px-[23px]", 
-                    (is_light_mode) ? "border-tbc-neutral-900" : "border-tbc-neutral-0")
-                }>
+                    (is_light_mode) ? "border-tbc-neutral-900" : "border-tbc-neutral-0",
+    
+                )}>
                 <span className={clsx("font-martian-mono-semibold text-base -tracking-[1px] leading-[130%]",
-                    (is_light_mode) ? "text-tbc-neutral-900" : "text-tbc-neutral-0")
-                }>
-                    REVIEW MEMBERSHIP OPTIONS
+                    (is_light_mode) ? "text-tbc-neutral-900" : "text-tbc-neutral-0",
+                    "md:text-[18px]"
+                )}>
+                    REVIEW MEMBERSHIP OPTIONSs
                 </span>
                 {(mode === "light") ? (<Image src={icon_arrow_down} alt="Arrow Down Icon" />) : (<Image src={icon_arrow_up} alt="Arrow Down Icon" />)}
             </Link>
