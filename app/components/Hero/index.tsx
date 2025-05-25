@@ -19,7 +19,7 @@ export default function Hero() {
                 <div className="mt-8">
                     <ReviewMemberShipOptions mode="light" />
                     <div className="rounded-md overflow-hidden mt-16">
-                        <Image src={image_hero_bg} alt="Rating Image Avatars"  />
+                        <Image src={image_hero_bg} alt="Rating Image Avatars" className="w-full" />
                     </div>
                 </div>
             </div>
