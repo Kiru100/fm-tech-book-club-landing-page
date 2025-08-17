@@ -6,7 +6,7 @@ import ReviewMemberShipOptions from "../ReviewMemberShipOptions";
 export default function Hero() {
     return (
         <section className="bg-tbc-neutral-100">
-            <div className="bg-square-background bg-[auto_100vh] bg-no-repeat pt-6 px-4 pb-20">
+            <div className="bg-square-background bg-[auto_100vh] pt-6 px-4 pb-20 md:p-8">
                 <Image src={Logo} alt="hero" />
                 <div className="mt-12">
                     <h1 className="bg-text-gradient bg-clip-text text-transparent text-4xl font-martian-mono-bold leading-[120%] -tracking-[2px] md:text-[3.875rem]">
