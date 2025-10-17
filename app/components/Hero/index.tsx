@@ -11,7 +11,7 @@ export default function Hero() {
                 <div className="mt-12">
                     <h1 className="bg-text-gradient bg-clip-text text-transparent text-4xl font-martian-mono-bold leading-[120%] -tracking-[2px] md:text-[3.875rem]">
                         Join the <br />
-                        ultimate tech<br />
+                        ultimate tech<br/>
                         book club
                     </h1>
                     <p className="mt-6 text-xl leading-[140%] -tracking-[0.5px] font-inter-normal text-tbc-neutral-700">Turn your reading time into learning time with fellow tech enthusiasts. Get curated recommendations, join vibrant discussions, and level up your skills one chapter at a time.</p>
