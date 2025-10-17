@@ -8,12 +8,13 @@ import Image from "next/image";
  */
 function NotYourAverageClubSection() {
     return (
-        <section className="mt-16 px-4">
-            <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px]">
-                Not your <br/>
-                average book <br/>
-                <span className="relative pl-2 py-4 pr-4 -inset-x-2 bg-no-repeat bg-center bg-contain bg-pattern_circle">
-                    club
+        <section className="mt-16 px-4 md:p-8">
+            <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px] max-w-[33.375rem] md:text-[3.125rem]">
+                <span> 
+                    Not your average book 
+                    <span className="relative pl-2 py-4 pr-4 -inset-x-2 bg-no-repeat bg-center bg-contain bg-pattern_circle">
+                        club
+                    </span>
                 </span>
             </h2>
             <div className="grid mt-6 gap-4">
