@@ -7,11 +7,11 @@ import logo_linkedin from '@/app/assets/images/logo-linkedin.svg';
 
 function Footer() {
     return (
-        <div className="mt-16 bg-tbc-neutral-900 bg-square-background-dark rounded-t-2xl pt-12 px-4  ">
+        <div className="mt-16 bg-tbc-neutral-900 bg-square-background-dark rounded-t-2xl pt-12 px-4 md:p-8">
             <div>
                 <h2 className="text-tbc-neutral-100 font-martian-mono-semibold leading-[130%] -tracking-[2px] text-[2.125rem] text-center">Ready to debug your reading list?</h2>
             </div>
-            <div className="mt-10">
+            <div className="mt-10 md:justify-center">
                 <ReviewMemberShipOptions mode="dark" />
             </div>
             <div className="flex flex-col mt-16 py-6 px-8 items-center gap-y-4 border-t border-tbc-neutral-700">
