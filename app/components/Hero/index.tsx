@@ -1,7 +1,7 @@
 import image_hero_bg from "@/app/assets/images/image-hero-mobile.webp";
 import Logo from "@/app/assets/images/logo.svg";
 import Image from "next/image";
-import ReviewMemberShipOptions from "../ReviewMemberShipOptions";
+import ReviewMemberShipOptions from "@/app/components/ReviewMemberShipOptions";
 
 export default function Hero() {
     return (
