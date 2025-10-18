@@ -26,7 +26,6 @@ export default function Hero() {
                                 <ReviewMemberShipOptions mode="light" />
                             </div>
                         </div>
-                        
                         {/* Right Column */}
                         <div className="flex justify-center w-full lg:justify-end">
                             <div className="rounded-md overflow-hidden w-full lg:h-[606px]">
