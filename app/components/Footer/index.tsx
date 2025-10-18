@@ -16,7 +16,7 @@ function Footer() {
             </div>
             <div className="flex flex-col mt-16 py-6 px-8 items-center gap-y-4 border-t border-tbc-neutral-700 md:justify-between md:flex-row">
                 <p className="text-tbc-neutral-100 font-martian-mono-normal leading-[120%] -tracking-[1px] text-sm">© 2024 – Tech Book Club</p>
-                <div className="flex flex-row gap-x-6 ">
+                <div className="flex flex-row gap-x-6 md:justify-self-end">
                     <Link href="/"><Image src={logo_bluesky} alt="Blue Sky Logo" height={22} width={22} /></Link>
                     <Link href="/"><Image src={logo_linkedin} alt="Linked In Logo" height={22} width={22} /></Link>
                 </div>
