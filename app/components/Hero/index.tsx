@@ -6,12 +6,12 @@ import ReviewMemberShipOptions from "../ReviewMemberShipOptions";
 export default function Hero() {
     return (
         <section className="bg-tbc-neutral-100 bg-square-background bg-cover min-h-screen">
-            <div className="pt-6 px-4 pb-20 md:p-8 h-full">
-                <div className="lg:container lg:mx-auto h-full">
+            <div className="pt-6 px-4 pb-20 md:p-8">
+                <div className="lg:container lg:mx-auto">
                     <div className="mb-8">
                         <Image src={Logo} alt="hero" />
                     </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center h-[calc(100vh-200px)]">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                         {/* Left Column */}
                         <div className="space-y-8 lg:py-8">
                             <div>
