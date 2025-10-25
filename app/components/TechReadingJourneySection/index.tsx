@@ -13,11 +13,9 @@ function TechReadingJourneySection() {
     ];
 
     return (
-        <section className="mt-16 px-4 mx-4 py-16 bg-tbc-neutral-100 rounded-xl bg-square-background relative overflow-hidden md:mx-8 lg:container lg:mx-auto lg:mt-20">
-            <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px] md:mx-8 md:text-[3.125rem]">
-                Your tech <br className='hidden' />
-                reading <br />
-                journey
+        <section className="mt-16 px-4 mx-4 py-16 bg-tbc-neutral-100 rounded-xl bg-square-background relative overflow-hidden md:mx-8 lg:container lg:mx-auto lg:mt-20 lg:justify-center lg:align-center lg:flex lg:flex-col lg:items-center">
+            <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px] md:mx-8 md:text-[3.125rem] max-w-[512px] lg:text-center lg:align-center">
+                Your tech reading journey
             </h2>
             <div className="flex flex-col gap-y-8 mt-8 md:mx-8 lg:grid lg:grid-cols-4 lg:gap-x-8">
                 {TECH_READING_JOURNEY.map(({id, title}, index) => (
