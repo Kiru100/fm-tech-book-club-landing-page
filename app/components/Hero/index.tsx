@@ -5,13 +5,13 @@ import ReviewMemberShipOptions from "@/app/components/ReviewMemberShipOptions";
 
 export default function Hero() {
     return (
-        <section className="bg-tbc-neutral-100 bg-square-background bg-cover lg:max-h-screen">
+        <section className="bg-tbc-neutral-100 bg-square-background bg-contain lg:max-h-screen">
             <div className="pt-6 px-4 pb-20 md:p-8 h-full lg:h-screen lg:max-h-screen">
                 <div className="lg:container lg:mx-auto lg:flex lg:flex-col lg:h-screen  lg:max-h-screen">
                     <div className="mb-8 lg:mb-0">  
                         <Image src={Logo} alt="hero" />
                     </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center flex-grow-2 lg:items-center lg:flex lg:flex-1 lg:flex-grow-2 lg:align-self-center lg:justify-center">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-16 gap-8 items-center flex-grow-2 lg:items-center lg:flex lg:flex-1 lg:flex-grow-2 lg:align-self-center lg:justify-center">
                         {/* Left Column */}
                         <div className="space-y-8 lg:py-8">
                             <div>

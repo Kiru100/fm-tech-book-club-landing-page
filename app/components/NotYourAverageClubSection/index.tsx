@@ -8,7 +8,7 @@ import Image from "next/image";
  */
 function NotYourAverageClubSection() {
     return (
-        <section className="mt-16 px-4 md:p-8 lg:container lg:mx-auto grid grid-cols-1 lg:grid-cols-2 items-center">
+        <section className="mt-16 px-4 md:p-8 lg:container lg:mx-auto lg:p-0 grid grid-cols-1 lg:gap-20 lg:grid-cols-2 items-center">
             <div>
                 <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px] max-w-[33.375rem] md:text-[3.125rem]">
                     <span> 
