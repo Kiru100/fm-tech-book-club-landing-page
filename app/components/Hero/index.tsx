@@ -11,7 +11,7 @@ export default function Hero() {
                     <div className="mb-8 lg:mb-0">  
                         <Image src={Logo} alt="hero" />
                     </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center flex-grow-2 lg:items-center lg:flex lg:flex-1 lg:flex-grow-2 lg:align-self-center lg:justify-center">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-16 gap-8 items-center flex-grow-2 lg:items-center lg:flex lg:flex-1 lg:flex-grow-2 lg:align-self-center lg:justify-center">
                         {/* Left Column */}
                         <div className="space-y-8 lg:py-8">
                             <div>
