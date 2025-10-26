@@ -37,8 +37,11 @@ function ReadTogetherSection() {
                 </div>  
             </div>
             {/* 2nd Column */}
-            <div className="mt-10 rounded-[12.25px] overflow-hidden lg:order-1">
-                <Image src={image_together_bg} alt="People reading together." className="w-full h-full object-cover" />
+            <div className="mt-10 rounded-[12.25px] overflow-hidden lg:order-1 lg:mt-0 lg:justify-self-center">
+                <Image 
+                    src={image_together_bg} 
+                    alt="People reading together." 
+                    className="w-full h-full object-cover lg:w-[560px] lg:h-[520px] rounded-[20px]" />
             </div>
         </section>
     )

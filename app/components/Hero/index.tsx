@@ -27,12 +27,12 @@ export default function Hero() {
                             </div>
                         </div>
                         {/* Right Column */}
-                        <div className="flex justify-center w-full lg:justify-end">
-                            <div className="rounded-md overflow-hidden w-full lg:h-[606px]">
+                        <div className="flex justify-center w-full lg:items-center">
+                            <div className="rounded-md overflow-hidden w-full lg:w-[540px]">
                                 <Image 
                                     src={image_hero_bg} 
                                     alt="Rating Image Avatars" 
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full lg:w-[540px] lg:h-[606px] rounded-md  object-cover"
                                     width={540}
                                     height={606}
                                     priority
