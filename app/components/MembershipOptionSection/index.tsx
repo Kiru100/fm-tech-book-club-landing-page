@@ -13,8 +13,8 @@ function MembershipOptionSection() {
     ];
 
     return (
-        <section className="mt-16 px-4 lg:container lg:mx-auto">
-             <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px] md:mx-4 md:text-[3.125rem]">
+        <section className="mt-16 px-4 lg:container lg:mx-auto lg:max-w-[970px]">
+             <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px] md:mx-4 md:text-[3.125rem] lg:text-center">
                 Membership options
             </h2>
             <div className="md:mx-4 md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-8 lg:mt-16">

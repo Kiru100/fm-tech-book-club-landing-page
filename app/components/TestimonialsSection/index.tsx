@@ -8,7 +8,7 @@ import Image from "next/image";
  */
 function TestimonialsSection() {
     return (
-        <div className="mt-16 px-4 md:mx-8 lg:mx-auto lg:container">
+        <div className="mt-16 px-4 md:mx-8 lg:mx-auto lg:container lg:max-w-[970px] lg:mt-28">
             <div className="flex flex-row items-center gap-[6px] lg:justify-center">
                 {(new Array(5)).fill(0).map((_, index) => (<Image src={icon_start} alt="Star" key={index} height={24} width={24} />))}
             </div>

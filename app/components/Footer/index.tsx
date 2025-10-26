@@ -7,7 +7,7 @@ import logo_linkedin from '@/app/assets/images/logo-linkedin.svg';
 
 function Footer() {
     return (
-        <div className="mt-16 bg-tbc-neutral-900 bg-square-background-dark rounded-t-2xl pt-12 px-4 md:p-8">
+        <div className="mt-16 bg-tbc-neutral-900 bg-square-background-dark rounded-t-2xl pt-12 px-4 md:p-8 lg:mt-28 lg:pb-0 lg:pt-20">
             <div>
                 <h2 className="text-tbc-neutral-100 font-martian-mono-semibold leading-[130%] -tracking-[2px] text-[2.125rem] md:text-center">Ready to debug your reading list?</h2>
             </div>
