@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <section className="bg-tbc-neutral-100 bg-square-background bg-contain lg:max-h-screen">
             <div className="pt-6 px-4 pb-20 md:p-8 h-full lg:h-screen lg:max-h-screen">
-                <div className="lg:container lg:mx-auto lg:flex lg:flex-col lg:h-screen  lg:max-h-screen">
+                <div className="lg:container lg:mx-auto lg:flex lg:flex-col lg:h-screen lg:max-h-screen">
                     <div className="mb-8 lg:mb-0">  
                         <Image src={Logo} alt="hero" />
                     </div>
