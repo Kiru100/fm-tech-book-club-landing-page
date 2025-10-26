@@ -13,14 +13,13 @@ function MembershipOptionSection() {
     ];
 
     return (
-        <section className="mt-16 px-4">
+        <section className="mt-16 px-4 lg:container lg:mx-auto">
              <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px] md:mx-4 md:text-[3.125rem]">
-                Membership <br/>
-                options <br/>
+                Membership options
             </h2>
-            <div className="md:mx-4 md:grid md:grid-cols-2 md:gap-4">
+            <div className="md:mx-4 md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-8 lg:mt-16">
                 {PLAN_DATA.map(({id, title, price, features, button_text, card_type}, index) => (
-                    <Plan key={`plan-${index}-${id}`} title={title} price={price} features={features} button_text={button_text} card_type={card_type}/>
+                    <Plan key={`plan-${index}-${id}`} index={index} title={title} price={price} features={features} button_text={button_text} card_type={card_type}/>
                 ))}
             </div>
         </section>
