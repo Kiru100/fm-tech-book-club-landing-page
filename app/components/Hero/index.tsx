@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <section className="bg-tbc-neutral-100 bg-square-background bg-contain lg:max-h-screen">
             <div className="pt-6 px-4 pb-20 md:p-8 h-full lg:h-screen lg:max-h-screen">
-                <div className="lg:container lg:mx-auto lg:flex lg:flex-col lg:h-screen  lg:max-h-screen">
+                <div className="lg:container lg:mx-auto lg:flex lg:flex-col lg:h-screen lg:max-h-screen">
                     <div className="mb-8 lg:mb-0">  
                         <Image src={Logo} alt="hero" />
                     </div>
@@ -27,12 +27,12 @@ export default function Hero() {
                             </div>
                         </div>
                         {/* Right Column */}
-                        <div className="flex justify-center w-full lg:justify-end">
-                            <div className="rounded-md overflow-hidden w-full lg:h-[606px]">
+                        <div className="flex justify-center w-full lg:items-center">
+                            <div className="rounded-md overflow-hidden w-full lg:w-[540px]">
                                 <Image 
                                     src={image_hero_bg} 
                                     alt="Rating Image Avatars" 
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full lg:w-[540px] lg:h-[606px] rounded-md  object-cover"
                                     width={540}
                                     height={606}
                                     priority

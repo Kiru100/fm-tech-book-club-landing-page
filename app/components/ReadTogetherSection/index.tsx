@@ -10,7 +10,7 @@ import image_together_bg from "@/app/assets/images/image-read-together-mobile.we
  */
 function ReadTogetherSection() {
     return (
-        <section className="mt-16 px-4 md:p-8 lg:container lg:mx-auto lg:p-0 lg:gap-8 grid grid-cols-1 lg:grid-cols-2 lg:gap-20 gap-8 items-center">
+        <section className="mt-16 px-4 md:p-8 lg:container lg:mx-auto lg:p-0 gap-8 grid grid-cols-1 lg:grid-cols-2 lg:gap-20 items-center">
             {/* 1st Column */}
             <div className="lg:order-2">
                 <h2 className="text-tbc-neutral-900 font-martian-mono-semibold text-[34px] leading-[130%] -tracking-[2px] md:text-[3.125rem]">
@@ -37,8 +37,11 @@ function ReadTogetherSection() {
                 </div>  
             </div>
             {/* 2nd Column */}
-            <div className="mt-10 rounded-[12.25px] overflow-hidden lg:order-1">
-                <Image src={image_together_bg} alt="People reading together." className="w-full h-full object-cover" />
+            <div className="mt-10 rounded-[12.25px] overflow-hidden lg:order-1 lg:mt-0 lg:justify-self-center">
+                <Image 
+                    src={image_together_bg} 
+                    alt="People reading together." 
+                    className="w-full h-full object-cover lg:w-[560px] lg:h-[520px] rounded-[20px]" />
             </div>
         </section>
     )

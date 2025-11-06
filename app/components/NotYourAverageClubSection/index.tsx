@@ -24,8 +24,8 @@ function NotYourAverageClubSection() {
                     </p>
                 </div>  
             </div>
-            <div className="mt-10 rounded-[12.25px] overflow-hidden">
-                <Image src={image_not_average} alt="People laughing." className="w-full h-full object-cover" />
+            <div className="mt-10 rounded-[12.25px] overflow-hidden lg:mt-0 lg:justify-self-center">
+                <Image src={image_not_average} alt="People laughing." className="w-full h-full object-cover lg:w-[560px] lg:h-[520px] lg:rounded-[20px]" />
             </div>
         </section>
     )
